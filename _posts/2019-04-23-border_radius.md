@@ -11,14 +11,14 @@ border-radius圆角边框是CSS3的新属性，以前网页设计开发中要实
 
 ## 一、语法
 1.单值,
-```
+```css
 border-radius:6px;
 ```
 表示元素四个方向的圆角大小都是6px，即每个圆角的“水平半径”和“垂直半半径”都设置为6px
 
 
 2.四个属性值
-```
+```css
 border-radius:10px 20px 30px 40px;
 ```
 分别表示左上角、右上角、右下角、左下角的圆角大小（顺时针方向）。
@@ -26,7 +26,7 @@ border-radius:10px 20px 30px 40px;
 
 
 3.三个属性值
-```
+```css
 border-radius:10px 30px 60px;
 ```
 第一个值表示左上角，第二个值表示右上角和左下角（对角），第三个值表示右下角。
@@ -34,7 +34,7 @@ border-radius:10px 30px 60px;
 
 
 4.两个属性值
-```
+```css
 border-radius:20px 40px;
 ```
 第一个值表示左上角和右下角，第二个值表示右上角和左下角。
@@ -42,7 +42,7 @@ border-radius:20px 40px;
 
 
 5.斜杠二组值
-```
+```css
 border-radius:100px/40px;
 border-radius:60px 60px 60px 60px/100px 100px 60px 60px;
 ```

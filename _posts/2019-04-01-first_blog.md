@@ -10,18 +10,15 @@ categories: 技术
 
 ### 介绍
 
-```
-  setSelectionRange()
-
+```javascript
+  setSelectionRange();
 ```
   The HTMLInputElement.setSelectionRange() method sets the start and end positions of the current text selection in an element.
 
   setSelectionRange()方法是作用在input元素上的，其次，这个方法可以为当前元素内的文本设置备选中范围（selection）。简单来说，就是可以通过设置起始于终止位置，来选中一段文本中的一部分。值得一提的是，在新版中，该方法还接受一个可选参数，这个参数指定的选择的方向。 其使用方式如下：
 
-```
-
+```javascript
   inputElement.setSelectionRange(selectionStart, selectionEnd, [optional] selectionDirection);
-
 ```
 - selectionStart：第一个被选中的字符的序号（index），从0开始。
 - selectionEnd：被选中的最后一个字符的前一个。换句换说，不包括index为selectionEnd的字符。
